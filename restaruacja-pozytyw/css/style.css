@@ -1,0 +1,387 @@
+body {
+	font-family: "Montserrat";
+}
+
+/* navbar style */
+
+.navbar {
+	background-color: white !important;
+}
+
+.nav-item a {
+	font-size: 18px;
+	font-family: "Montserrat";
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+/* colors of menu */
+
+#menu-nav {
+	color: rgb(109, 166, 23) !important;
+}
+
+#nav-galeria {
+	color: rgb(242, 185, 80) !important;
+}
+
+#nav-koryto {
+	color: rgb(217, 112, 20) !important;
+}
+
+#nav-kontakt {
+	color: rgb(217, 4, 4) !important;
+}
+
+#nav-numer-telefonu {
+	color: rgb(64, 64, 64) !important;
+}
+
+/* icons of menu - where they should be */
+
+#menu-icon {
+	padding-bottom: 4px;
+	padding-right: 1px;
+}
+
+/* hero section style */
+
+.hero {
+	height: 100vh;
+	background: url(../img/hero-image-pizza.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+h1 {
+	font-size: 60px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
+	text-transform: uppercase;
+	position: relative;
+	top: 35%;
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+   font-size: 30px;
+   position: relative;
+	top: 35%;
+  }
+}
+
+.hero-container {
+	position: relative;
+	top: 35%;
+}
+
+.btn-space {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#nasze-dania-button {
+	background-color: rgb(217, 112, 20);
+	 !important;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.37) !important;
+	border-radius: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+  #nasze-dania-button a {
+  font-size:70% !important;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #nasze-dania-button {
+  width: 130px !important;
+  }
+}
+
+#koryto-button {
+	background-color: rgb(109, 166, 23);
+	 !important;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.37) !important;
+	border-radius: 0 !important;
+}
+
+
+@media screen and (max-width: 480px) {
+  #koryto-button a {
+  font-size:70% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #koryto-button {
+  width: 130px !important;
+  padding-top: 3px;
+  }
+}
+
+.hero-container a {
+	color: white;
+	font-size: 18px;
+	font-family: "Montserrat";
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.same-size-buttons {
+	width: 190px !important;
+}
+
+/* menu section style */
+
+.menu-section {
+	position: relative;
+	top: 50px;
+	margin-top: 3vh;
+	margin-bottom: 5vh;
+}
+
+#table-button-koszyk {
+	background-color: rgb(109, 166, 23);
+	 !important;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.37) !important;
+	border-radius: 0 !important;
+}
+
+.menu-section a {
+	color: white;
+	font-family: "Montserrat";
+	font-weight: bold;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.table-head {
+	font-family: "Montserrat";
+	color: rgb(217, 112, 20);
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.menu-items-buttons {
+	background-color: rgb(109, 166, 23);
+	 !important;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.37) !important;
+	border-radius: 0 !important;
+}
+
+.menu-dania-buttons {
+	border-radius: 0 !important;
+}
+
+.menu-dania-buttons a {
+	color: rgb(64, 64, 64);
+}
+
+.menu-dania-buttons:hover {
+	background-color: rgb(217, 112, 20);
+}
+
+.menu-dania-buttons:active {
+	background-color: rgb(217, 112, 20);
+}
+
+.menu-element-buttons {
+	text-align: left !important;
+}
+
+.descritpion-order-info-and-prize {
+	font-size: 12px;
+	font-family: "Montserrat";
+	color: rgb(64, 64, 64);
+	line-height: 1.2;
+	text-align: left;
+	vertical-align: middle !important;
+}
+
+.pizza-name {
+	text-align: left !important;
+	margin-bottom: 0rem !important;
+}
+
+.pizza-descritpion {
+	text-align: left !important;
+	font-size: 12px;
+	color: rgb(64, 64, 64);
+	line-height: 1.2;
+	margin-bottom: 0rem !important;
+}
+
+#table-button-do-koszyka {
+	background-color: rgb(109, 166, 23);
+	 !important;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.37) !important;
+	border-radius: 0 !important;
+}
+
+.dropdown-menu a {
+	color: rgb(64, 64, 64);
+	font-family: "Montserrat";
+	font-weight: bold;
+	line-height: 1.2;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.dropdown-menu {
+	border-radius: 0 !important;
+}
+
+.do-koszyka-cell {
+	vertical-align: middle !important;
+}
+
+/* koryto section style */
+
+.koryto-section {
+	background-image: url(../img/koryto-back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 100px;
+	position: relative;
+	text-align: center;
+	padding-top: 15vh;
+	padding-bottom: 1vh;
+}
+
+@media screen and (max-width: 480px) {
+  .koryto-section {
+  padding-bottom: 8vh;
+  }
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
+	text-transform: uppercase;
+	position: relative;
+}
+
+.koryto-list-of-elements {
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
+	text-align: left !important;
+	padding-top: 10px;
+}
+
+.koryto-explanaitions {
+	color: rgb(255, 255, 255);
+	font-size: 0.8rem;
+	line-height: 1.2;
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
+	text-align: left !important;
+	padding-top: 10px;
+}
+
+.twoja-impreza-text {
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
+	text-align: left !important;
+	padding-top: 10px;
+}
+
+.koryto-hr-for-sm-devices {
+	margin: 7vh;
+	height: 1px;
+    color: white;
+    background-color: white;
+    border: none;
+}
+
+@media screen and (min-width: 480px) {
+  .koryto-hr-for-sm-devices {
+  width: 0%;
+  }
+}
+
+
+/* kontakt section style */
+
+.kontakt-section {
+	top: 100px;
+	position: relative;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+}
+
+#map-div {
+	position: relative;
+    overflow: hidden;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.kontakt-info {
+	padding-top: 5%;
+}
+
+.kontakt-h2 {
+	color: rgb(64, 64, 64) !important;
+	text-shadow: none !important;
+}
+
+.kontakt-list-of-contacts {
+	line-height: 1.2;
+	text-align: left !important;
+	padding-top: 10px;
+	color: rgb(64, 64, 64) !important;
+}
+
+.kontakt-explanations {
+	color: rgb(64, 64, 64) !important;
+	line-height: 1.2;
+	text-align: left !important;
+	padding-top: 10px;
+}
+
+/* footer section style */
+
+.footer-section {
+	height: 100px;
+	top: 100px;
+	position: relative;
+	margin-top: 8vh;
+	background-color: rgb(64, 64, 64);
+}
+
+.by-wojtek-paragraph {
+	color: rgb(255, 255, 255);
+}
+
+.container-footer {
+	text-align: center;
+	position: relative;
+	top: 40%
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.content {
+    padding: 20px;
+}
