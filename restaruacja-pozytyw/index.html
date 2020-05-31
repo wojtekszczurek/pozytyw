@@ -25,7 +25,7 @@
 </head>
 
 <body>
-wdada
+
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
 		<div class="container">
@@ -70,7 +70,6 @@ wdada
 			</div>
 		</div>
 	</nav>
-
 	<!-- Page Content -->
 	<!-- Hero -->
 	<section class="hero">
@@ -83,7 +82,6 @@ wdada
 		</div>
 	</section>
 	<!-- Menu - table of contents -->
-
 	<section class="menu-section">
 		<div class="container">
 			<div class="row">
@@ -104,102 +102,653 @@ wdada
 							<tr>
 								<td colspan="4">
 									<div class="menu-element-buttons">
-										<button type="button" class="btn menu-dania-buttons"><a>Dania</a></button>
-										<button type="button" class="btn menu-dania-buttons"><a>Coś na ząb</a></button>
-										<!--
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Zupy</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Makaron</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Dania mięsne</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Dania rybne</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Desery</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Coś dla dzieci :)</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Sałatki</a></button>
-											<button type="button" class="btn menu-dania-buttons"><a href="#">Napoje</a></button>
-											-->
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#pizza-table" aria-expanded="false" aria-controls="pizza-table"><a>Pizza</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#cosnazab-table" aria-expanded="false" aria-controls="cosnazab-table"><a>Coś na ząb</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#zupy-table" aria-expanded="false" aria-controls="zupy-table"><a>Zupy</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#makaron-table" aria-expanded="false" aria-controls="makaron-table"><a>Makaron</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#daniaglownemiesne-table" aria-expanded="false" aria-controls="daniaglownemiesne-table"><a>Dania główne mięsne</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#daniaglownerybne-table" aria-expanded="false" aria-controls="daniaglownerybne-table"><a>Dania główne rybne</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#desery-table" aria-expanded="false" aria-controls="desery-table"><a>Desery</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#cosdladzieci-table" aria-expanded="false" aria-controls="cosdladzieci-table"><a>Coś dla dzieci :)</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#salatki-table" aria-expanded="false" aria-controls="salatki-table"><a>Sałatki</a></button>
+										<button type="button" class="btn menu-dania-buttons" data-toggle="collapse" data-target="#napoje-table" aria-expanded="false" aria-controls="napoje-table"><a>Napoje</a></button>
 									</div>
 								</td>
 							</tr>
-
-							<tr class="descrition">
-								<td class="descritpion-order-info-and-prize">
-									Zapewniamy bezpieczną dostawę bez kontaktu z kierowcą
-								</td>
-								<td class="descritpion-order-info-and-prize">30 cm</td>
-								<td class="descritpion-order-info-and-prize">45 cm</td>
-								<td class="descritpion-order-info-and-prize"> </td>
-							</tr>
-
-								<tr>
-										<td>
-											<p class="pizza-name" id="pizza-name">1. Margarita <br></p>
-											<p class="pizza-descritpion" id="pizza-descritpion">Sos pomidorowy, mozarella, zioła</p>
-										</td>
-										<td class="descritpion-order-info-and-prize">30 zł</td>
-										<td class="descritpion-order-info-and-prize">50 zł</td>
-										<td class="do-koszyka-cell">
-											<div class="dropdown show">
-												<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-													Do koszyka
-												</a>
-												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-													<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-													<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-												</div>
-											</div>
-										</td>
-
-
-							</tr>
-
-							<tr>
-								<td>
-									<p class="pizza-name" id="pizza-name">2. Margarita <br></p>
-									<p class="pizza-descritpion" id="pizza-descritpion">Sos pomidorowy, mozarella, zioła</p>
-								</td>
-								<td class="descritpion-order-info-and-prize">30 zł</td>
-								<td class="descritpion-order-info-and-prize">50 zł</td>
-								<td class="do-koszyka-cell">
-									<div class="dropdown show">
-										<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Do koszyka
-										</a>
-										<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-											<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-											<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-										</div>
-									</div>
-								</td>
-							</tr>
-
-							<tr>
-								<td>
-									<p class="pizza-name" id="pizza-name">3. Margarita <br></p>
-									<p class="pizza-descritpion" id="pizza-descritpion">Sos pomidorowy, mozarella, zioła</p>
-								</td>
-								<td class="descritpion-order-info-and-prize">30 zł</td>
-								<td class="descritpion-order-info-and-prize">50 zł</td>
-								<td class="do-koszyka-cell">
-									<div class="dropdown show">
-										<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Do koszyka
-										</a>
-										<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-											<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-											<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
-										</div>
-									</div>
-								</td>
-							</tr>
-
 						</tbody>
 					</table>
+					<!-- Tables with dishes / collapse -->
+					<!-- Tables with dishes / PIZZA -->
+					<div class="collapse show" id="pizza-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr class="descrition">
+									<td style="width:60%" class="descritpion-order-info-and-prize">
+										Zapewniamy bezpieczną dostawę bez kontaktu z kierowcą
+									</td>
+									<td style="width:10%" class="descritpion-order-info-and-prize"><span id="button-30cm">30 cm</span></td>
+									<td style="width:10%" class="descritpion-order-info-and-prize" id="button-45cm">45 cm</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize"> </td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Margarita <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, mozarella, zioła</p>
+									</td>
+									<td style="width:10%" class="descritpion-order-info-and-prize">30 zł</td>
+									<td style="width:10%" class="descritpion-order-info-and-prize">50 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">2. Pomodori <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, ser mozzarella, zioła, pomidory, czosnek</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">30 zł</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">3. Prosciutto <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, ser mozzarella, zioła, pieczarki, szynka</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">30 zł</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">4. Bolognes<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, ser mozzarella, zioła, sos bolognese, cebula, czosnek, parmezan</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">30 zł</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">5. Brocolli <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, ser mozzarella, zioła, kurczak, pieczarki, brokuły</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">30 zł</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">6. Baccio del diavole <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">sos pomidorowy, ser mozzarella, zioła, kiełbasa, pomidory, cebula, pieczarki, parmezan, czosnek</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">30 zł</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td class="do-koszyka-cell">
+										<div class="dropdown show">
+											<a id="table-button-do-koszyka" class="btn btn-sm pull-right dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Zamów
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">30 cm - 18 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+												<a class="dropdown-item" href="#">45 cm - 27 zł <img class="img-responsive" width="12%" src="img/pizza.svg"></a>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- Tables with dishes / COŚ NA ZĄB -->
+					<div class="collapse" id="cosnazab-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Sałatka Cayenne<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">pikantny kurczak marynowany w pieprzu Cayenne podany na mixie sałat z dodatkiem kukurydzy,
+											marchewki, prażonych pestek dyni i słonecznika, skropiony sosem musztardowo-miodowym, 180 g</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">2. Bruschetta z grzybami leśnymi <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">kompozycja grzybów leśnych smażonych na cebulce podana na chrupiących grzankach, 150g</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">3. Fiocchetti gorgonzola <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">makaronowe sakiewki wypełnione serem gorgonzola, podane z pesto szpinakowym, 150g</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="pizza-name" id="pizza-name">4. Kanapka Pozytyw <br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">świeżo pieczona bułka z grillowanym boczkiem, świeżymi warzywami i dodatkiem pikantnego sosu Pozytyw, 200g</p>
+									</td>
+									<td class="descritpion-order-info-and-prize">50 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+						<!-- Tables with dishes / ZUPY -->
+					<div class="collapse" id="zupy-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+						<!-- Tables with dishes / MAKARON -->
+					<div class="collapse" id="makaron-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+						<!-- Tables with dishes / DANIA GŁÓWNE MIĘSNE -->
+					<div class="collapse" id="daniaglownemiesne-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+						<!-- Tables with dishes / DANIA GŁÓWNE RYBNE -->
+					<div class="collapse" id="daniaglownerybne-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+						<!-- Tables with dishes / DESERY -->
+					<div class="collapse" id="desery-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+							<!-- Tables with dishes / COŚ DLA DZIECI -->
+					<div class="collapse" id="cosdladzieci-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+							<!-- Tables with dishes / SAŁATKI -->
+					<div class="collapse" id="salatki-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+												<!-- Tables with dishes / NAPOJE -->
+					<div class="collapse" id="napoje-table">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">1. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">2. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">3. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:60%" class="pizza-name-and-description">
+										<p class="pizza-name" id="pizza-name">4. Przykładowe danie<br></p>
+										<p class="pizza-descritpion" id="pizza-descritpion">Przykładowy opis</p>
+									</td>
+									<td style="width:20%" class="descritpion-order-info-and-prize">10 zł</td>
+									<td style="width:20%" class="do-koszyka-cell">
+										<a id="table-button-do-koszyka" class="btn btn-sm pull-right" href="#" role="button">
+											<img id="menu-icon" src="img/cart.png" alt="Responsive image"> Zamów
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
-	<!-- Koryyo section + zorganizuj swoją imprezę -->
+	<!-- Koryto section + zorganizuj swoją imprezę -->
 
 	<section class="koryto-section">
 		<div class="container">
@@ -208,19 +757,57 @@ wdada
 					<div class="row">
 						<div class="koryto-col col-sm">
 							<div class="rotating-koryto-propositions">
+
+
+
+
 								<h2>Oferta specjalna: <span style="color: #f2b950;">Koryto</span></h2>
 								<img src="img/koryto-image.png" class="img-fluid" alt="Zbliżenie na koryto">
-								<ul class="koryto-list-of-elements list-unstyled">
+									<div class="container">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4">
+                 <ul class="koryto-list-of-elements list-unstyled">
 									<li><b>Propozycja I dla 10-12 osób</b></li>
 									<li></li>
-									<li>Golonka pieczona bez kości - 7 porcji</li>
-									<li>Roladki ze schabu nadziewane pieczarkami - 5 porcji</li>
-									<li>Szaszłyk z kurczaka - 4 porcje</li>
-									<li>Krupniok - 5 porcji
+									<li>Golonka pieczona bez kości x7</li>
+									<li>Roladki ze schabu nadziewane pieczarkami x5</li>
+									<li>Szaszłyk z kurczaka x4</li>
+									<li>Krupniok x4
 									</li>
-									<li>Ziemniaczki pieczone - 8 porcji</li>
+									<li>Ziemniaczki pieczone x4</li>
+					<br><br><br>
 								</ul>
-								<h2 class="left" style="color: #f2b950;"> Zamów za 220 zł</h2>
+					<h2 class="left" style="color: #f2b950;">Zamów za 220 zł</h2>
+            </div>
+            <div class="carousel-item text-center p-4">
+
+               <ul class="koryto-list-of-elements list-unstyled">
+									<li><b>Propozycja II dla 10-12 osób</b></li>
+									<li></li>
+									<li>Golonka duszona bez kości x6</li>
+									<li>Żeberka pieczone x5</li>
+									<li>Kurczak Cordon Blue x5</li>
+									<li>Roladka wieprzowa z tradycyjnym farszem i sosem x6
+									</li>
+									<li>Filet z indyka faszerowany suszonymi pomidorami i serem x5</li>
+				   <li>Kluski śląskie x8</li>
+				   <li>Bukiet warzyw x8 porcji</li>
+								</ul>
+				<h2 class="left" style="color: #f2b950;">Zamów za 260 zł</h2>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
 							</div>
 							<p class="koryto-explanaitions">To tylko przykładowe propozycje. To Państwo komponujecie koryto dla siebie :) <br> <b>Dowóz na terenie Ustronia Gratis</b></p>
 							<hr class="koryto-hr-for-sm-devices">

@@ -1,7 +1,6 @@
-// buttons changing
+// hide elements tables with dishes when clicking on button with other table
 
-$("#buttons a").click(function() {
-    var id = $(this).attr("id");
-    $("#pages div").css("display", "none");
-    $("#pages div#" + id + "").css("display", "block");
+jQuery('button').click( function(e) {
+    jQuery('.collapse').collapse('hide');
 });
+

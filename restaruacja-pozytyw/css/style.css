@@ -1,5 +1,11 @@
+/* basic */
+
 body {
 	font-family: "Montserrat";
+}
+
+.hidden {
+     display:none;
 }
 
 /* navbar style */
@@ -282,8 +288,9 @@ h2 {
 	color: rgb(255, 255, 255);
 	line-height: 1.2;
 	text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.37);
-	text-align: left !important;
+	text-align: center !important;
 	padding-top: 10px;
+	font-size: 0.9rem;
 }
 
 .koryto-explanaitions {
@@ -315,6 +322,12 @@ h2 {
   .koryto-hr-for-sm-devices {
   width: 0%;
   }
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
 }
 
 
